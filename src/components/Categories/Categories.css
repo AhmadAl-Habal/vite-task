@@ -1,0 +1,50 @@
+.categories header {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.categories header h1{
+    color: #fff;
+    font-weight: 500;
+}
+
+.categories header h5 {
+    color: #D9ECFF;
+    font-weight: 300;
+}
+
+.categories .categories-slider {
+    padding: 0 2rem;
+    background-image: url("../../assets/categories-background.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.categories .categories-slider img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 1rem;
+}
+
+.categories .category-item {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #364C65;
+    border: 1px solid #DADAF780;
+    border-radius: 25px;
+    padding: 1rem;
+    width: 150px;
+    height: 150px;
+    color: #D9ECFF;
+
+}
+
+.categories .swap-arrow {
+    font-size: 30px;
+    color: #fff;
+    
+}

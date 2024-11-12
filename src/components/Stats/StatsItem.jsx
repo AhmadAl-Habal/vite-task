@@ -5,8 +5,7 @@ const StatsItem = ({ size, color, content }) => {
 
   return (
     <div className={`stats-item ${color} ${size}`}>
-      
-
+    
       {size === "stats-large" ? (
         <>
         <h2><FaStar className="green-star"></FaStar> <span>{itemContent.h1}</span></h2>

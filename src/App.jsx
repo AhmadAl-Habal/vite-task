@@ -2,7 +2,7 @@ import "./index.css"
 import Navbar from "./components/Navbar/Navbar.jsx"
 import Hero from "./components/Hero/Hero.jsx"
 import Stats from "./components/Stats/Stats.jsx"
-
+import Categories from "./components/Categories/Categories.jsx"
 function App() {
   return (
     <>
@@ -13,9 +13,7 @@ function App() {
    </div>
    <Stats/>
    <div className="design-container">  
-    <Navbar/>
-    <Hero/>
-    
+    <Categories />
    </div>
     </>
   )

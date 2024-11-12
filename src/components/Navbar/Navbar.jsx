@@ -1,5 +1,5 @@
 import React from 'react'
-import logoImg from "../assets/Edujar.png"
+import logoImg from "../../assets/Edujar.png"
 import "./Navbar.css"
 const Navbar = () => {
   return (

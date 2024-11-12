@@ -50,7 +50,9 @@
     cursor: pointer;
     
 }
-
+.hero .hero-input button:hover {
+    color: #D9ECFF
+}
 /* .highlighted-text {
     border-bottom: #FAB437 solid 2px;
 } */

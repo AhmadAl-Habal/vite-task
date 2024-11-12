@@ -23,8 +23,9 @@ const Categories = () => {
         <h1>Explore Top Categories</h1>
         <h5>Click on the categories and explore all courses</h5>
       </header>
+
       <div className="categories-slider">
-        
+        <div className="design-container">
         <FiChevronLeft className="swap-arrow"/>
         <Category img={artAndDesign} categoryTitle="Art &Design" />
         <Category img={communication} categoryTitle="Communication" />
@@ -32,6 +33,7 @@ const Categories = () => {
         <Category img={marketing} categoryTitle="Marketing  " />
         <Category img={photography} categoryTitle="Photography" />
         <FiChevronRight className="swap-arrow"/>
+        </div>
       </div>
     </div>
   );

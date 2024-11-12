@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar.jsx"
 import Hero from "./components/Hero/Hero.jsx"
 import Stats from "./components/Stats/Stats.jsx"
 import Categories from "./components/Categories/Categories.jsx"
+import Courses from "./components/Courses/Courses.jsx"
 function App() {
   return (
     <>
@@ -12,8 +13,10 @@ function App() {
     
    </div>
    <Stats/>
-   <div className="design-container">  
     <Categories />
+    <div className="design-container">  
+   <Courses />
+    
    </div>
     </>
   )

@@ -4,22 +4,22 @@ import Hero from "./components/Hero/Hero.jsx"
 import Stats from "./components/Stats/Stats.jsx"
 import Categories from "./components/Categories/Categories.jsx"
 import Courses from "./components/Courses/Courses.jsx"
+import AskedQuestions from "./components/AskedQuestions/AskedQuestions.jsx";
 function App() {
   return (
     <>
-  <div className="design-container">  
-    <Navbar/>
-    <Hero/>
-    
-   </div>
-   <Stats/>
-    <Categories />
-    <div className="design-container">  
-   <Courses />
-    
-   </div>
+      <div className="design-container">
+        <Navbar />
+        <Hero />
+      </div>
+      <Stats />
+      <Categories />
+      <div className="design-container">
+        <Courses />
+        <AskedQuestions />
+      </div>
     </>
-  )
+  );
 }
 
 export default App

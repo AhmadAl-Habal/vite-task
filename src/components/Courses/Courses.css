@@ -149,3 +149,17 @@ font-family: "koho";
   color: #D9ECFF80;
   border: 2px solid #fff;
 }
+
+
+@media (max-width: 700px){
+  .courses .courses-list {
+    flex-direction: column;
+  }
+  .courses .course {
+    width: 90%;
+  }
+  .courses header {
+    padding: 0 0.5rem;
+}
+
+}

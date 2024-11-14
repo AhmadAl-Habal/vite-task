@@ -63,4 +63,18 @@
     background-color: #354C66;
 }
 
+@media (max-width: 1000px){
+    .stats {
+        flex-direction: column;
+        
+    }
+    .stats .stats-item{
+        width: 50%;
+        margin: 0 auto;
+        border-radius: 25px;
+        margin-bottom: 1rem;
+        
+    }
+   
+}
 

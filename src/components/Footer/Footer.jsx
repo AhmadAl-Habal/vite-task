@@ -9,7 +9,7 @@ const Footer = () => {
     {
       logo: logoImg,
       desc: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat...",
-      copywrite: "© 2024 <span>edujar<span/> - All Rights Reserved",
+      copyRight: "© 2024 <span>edujar<span/> - All Rights Reserved",
     },
     {
       title: "Quick links",
@@ -31,11 +31,13 @@ const Footer = () => {
     },
   ];
   return (
-    <div className="footer">
-      <FooterLogoSection content={footerContent[0]}/>
-      <FooterLinksSection content={footerContent[1]}/>
-      <FooterLinksSection content={footerContent[2]}/>
-      <FooterSubSection content={footerContent[3]}/>
+    <div className="content-container">
+      <div className="footer">
+        <FooterLogoSection content={footerContent[0]} />
+        <FooterLinksSection content={footerContent[1]} />
+        <FooterLinksSection content={footerContent[2]} />
+        <FooterSubSection content={footerContent[3]} />
+      </div>
     </div>
   );
 };

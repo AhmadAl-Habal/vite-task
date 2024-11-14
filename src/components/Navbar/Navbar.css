@@ -27,6 +27,14 @@ nav .navigations li {
     margin: 0 10px;
 }
 
+nav .navigations .menu {
+    display: none;
+    border: 1px solid #D9ECFF;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
 nav .navigations li:hover {
    color: #fff;
 }
@@ -46,4 +54,17 @@ nav button {
 nav button:hover {
     color: #fff;
 
+}
+
+
+@media (max-width: 700px){
+
+    nav .navigations li {
+        display: none;
+    }
+    nav .navigations .menu{
+       display: block !important;
+    }
+    .hero .hero-content {margin: 0 auto;}
+   
 }

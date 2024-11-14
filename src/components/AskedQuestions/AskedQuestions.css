@@ -26,6 +26,7 @@ font-weight: 400;
     border: none;
     border-radius: 25px;
     letter-spacing: 1px;
+    cursor: pointer;
 }
 .asked-questions .questions{
     width: 60%;
@@ -46,9 +47,9 @@ font-weight: 600;
 }
 .asked-questions .questions .question .first-row h2{
     color: #D9ECFF;
-    font-size: 1rem;
-
-font-weight: 400;
+    font-size: 2rem;
+    font-weight: 400;
+    cursor: pointer;
 }
 .asked-questions .questions .question h3{
     color: #D9ECFF;

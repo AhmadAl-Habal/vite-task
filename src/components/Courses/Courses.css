@@ -119,7 +119,7 @@ margin-right: 0.5rem;
   cursor: pointer;
   outline: none;
   border: 1px solid #D9ECFF80;
-  
+  border-radius: 25px;
   font-size: 1rem; 
   font-weight: 700;
   
@@ -142,6 +142,7 @@ outline: none;
 border-radius: 25px;
 text-align: center;
 letter-spacing: 1px;
+font-family: "koho";
 }
 
 .courses .courses-footer button:hover {
